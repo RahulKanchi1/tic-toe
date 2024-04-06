@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxer {
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows: 30% 30% 30%;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+  border: none;
+  background-color: greenyellow;
+
+}
+.reset{
+  position: relative;
+  left: 700px;
+  top: 50px;
+  height: 70px;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 25px;
+  background-color: black;
+}
+button:hover{
+    box-shadow: 0px 0px 10px 2px red;
+}
+body{
+    background-color: gray;
+}
